@@ -65,7 +65,7 @@ public class ticTacToe {
             if(a[1]==1)
                 System.out.println("player 2 is LOSER madarchod");
             else if(a[0]==-1)
-                System.out.println("player 1 is LOSER madarchod");
+                System.out.println("player 1 is LOSER BehanKaLora");
         }
         else if(a[2] ==  a[5] && a[5] == a[8] ){
             if(a[2]==1)
