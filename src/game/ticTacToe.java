@@ -39,27 +39,27 @@ public class ticTacToe {
     private static void winner(int[] a) {
         if(a[0] ==  a[1] && a[1] == a[2] ){
             if(a[0]==1)
-                System.out.println("player 2 is LOSER madarchod.");
+                System.out.println("player 2 is LOSER BehanKaLora madarchod.");
             else if(a[0]==-1)
-                System.out.println("player 1 is LOSER madarchod");
+                System.out.println("player 1 is LOSER BehanKaLora madarchod");
         }
         else if(a[3] ==  a[4] && a[4] == a[5] ){
             if(a[3]==1)
-                System.out.println("player 2 is LOSER madarchod");
+                System.out.println("player 2 is LOSER BehanKaLora madarchod");
             else if(a[3]==-1)
-                System.out.println("player 1 is LOSER madarchod");
+                System.out.println("player 1 is LOSER BehanKaLora madarchod");
         }
         else if(a[6] ==  a[7] && a[7] == a[8] ){
             if(a[6]==1)
-                System.out.println("player 2 is LOSER madarchod");
+                System.out.println("player 2 is LOSER BehanKaLora madarchod");
             else if(a[6]==-1)
-                System.out.println("player 1 is LOSER madarchod");
+                System.out.println("player 1 is LOSER BehanKaLora madarchod");
         }
         else if(a[0] ==  a[3] && a[3] == a[6] ){
             if(a[0]==1)
                 System.out.println("player 2 is LOSER madarchod");
             else if(a[0]==-1)
-                System.out.println("player 1 is LOSER madarchod");
+                System.out.println("player 1 is LOSER BehanKaLora");
         }
         else if(a[1] ==  a[4] && a[4] == a[7] ){
             if(a[1]==1)
@@ -75,7 +75,7 @@ public class ticTacToe {
         }
         else if(a[0] ==  a[4] && a[4] == a[8] ){
             if(a[0]==1)
-                System.out.println("player 2 is LOSER madarchod");
+                System.out.println("player 2 is LOSER BehanKaLora");
             else if(a[0]==-1)
                 System.out.println("player 1 is LOSER madarchod");
         }
